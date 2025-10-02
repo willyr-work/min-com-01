@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curbing E-commerce Influx: A Global Policy Analysis</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic vectors -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom styles for better readability and presentation */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+            line-height: 1.6;
+        }
+        .policy-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+        }
+        .policy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+        }
+        .source-link {
+            color: #4f46e5;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+        /* Custom Utility for Icon Sizing (Lucide uses data-lucide attribute) */
+        [data-lucide] {
+            width: 3rem;
+            height: 3rem;
+            color: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-gray-900">Global E-commerce Policies</h1>
+            <span class="text-sm font-medium text-indigo-600 hidden sm:block">USA | EU | ASEAN | Thailand Focus</span>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <!-- Introduction -->
+        <section class="mb-12 bg-white p-6 rounded-xl border border-indigo-100">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">The Challenge of Ultra-Low-Cost E-commerce</h2>
+            <p class="text-gray-600">
+                The massive influx of ultra-low-cost products from Chinese platforms like **Temu** and **Shein** presents a triple challenge: undercutting local businesses, increasing environmental waste, and complicating customs compliance. This section details how key economies are responding, followed by an analysis for Thailand.
+            </p>
+        </section>
+
+        <!-- Global Policies Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 border-indigo-200 pb-2">Global Responses to Influx</h2>
+            
+            <div id="policy-container" class="grid md:grid-cols-3 gap-6">
+                
+                <!-- USA Policy Card -->
+                <div class="policy-card bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center transition">
+                    <i data-lucide="ShieldOff" class="text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">USA: De Minimis Loophole Crackdown</h3>
+                    <p class="text-sm text-gray-500 mb-4">Focuses on closing trade exemptions and increasing scrutiny for safety/security reasons.</p>
+                    <div class="policy-detail mt-4 text-left w-full">
+                        <h4 class="font-bold text-gray-800 mb-2">Key Policy:</h4>
+                        <p class="text-gray-700 text-sm">
+                            The US government is targeting the **De Minimis exemption** (which allowed shipments valued under $800 to enter duty-free without extensive customs inspection). Proposed rules would deny this exemption to products subject to U.S.-China tariffs, and require more detailed information to curb illicit or unsafe imports like precursor chemicals.
+                        </p>
+                        <p class="mt-4 text-xs text-gray-500">
+                            **Source:** <a href="https://www.asiafinancial.com/us-to-curb-cheap-china-parcels-temu-shein-face-big-hit" target="_blank" class="source-link">Asia Financial: US to Curb Cheap China Parcels: Temu, Shein Face Big Hit</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- EU Policy Card -->
+                <div class="policy-card bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center transition">
+                    <i data-lucide="Recycle" class="text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Europe (EU): Sustainability & Liability</h3>
+                    <p class="text-sm text-gray-500 mb-4">Focuses on making producers financially responsible for waste and ensuring product compliance.</p>
+                    <div class="policy-detail mt-4 text-left w-full">
+                        <h4 class="font-bold text-gray-800 mb-2">Key Policy:</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>**Extended Producer Responsibility (EPR):** Mandating producers (including those outside the EU) to cover costs for collecting, sorting, and recycling textile waste.</li>
+                            <li>**Ecodesign Regulation:** Introducing requirements for durability and recyclability, and banning the **destruction of unsold clothing**.</li>
+                            <li>**Customs Reform:** Planning to eliminate the duty-free exemption for goods under €150.</li>
+                        </ul>
+                        <p class="mt-4 text-xs text-gray-500">
+                            **Source:** <a href="https://www.europarl.europa.eu/topics/en/article/20201208STO93327/fast-fashion-eu-laws-for-sustainable-textile-consumption" target="_blank" class="source-link">European Parliament: Fast fashion: EU laws for sustainable textile consumption</a> & <a href="https://fashionunited.com/news/fashion/eu-targets-fast-fashion-e-commerce-with-new-customs-regime/2024072261051" target="_blank" class="source-link">Fashion United: EU targets fast fashion e-commerce with new customs regime</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ASEAN Policy Card -->
+                <div class="policy-card bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center transition">
+                    <i data-lucide="Landmark" class="text-yellow-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">ASEAN Neighbors: Direct Taxation</h3>
+                    <p class="text-sm text-gray-500 mb-4">Focuses on implementing or increasing taxes/duties on low-value imports to protect domestic sellers.</p>
+                    <div class="policy-detail mt-4 text-left w-full">
+                        <h4 class="font-bold text-gray-800 mb-2">Key Policy:</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>**Malaysia:** Imposed a **10% Sales Tax** on imported goods purchased online below MYR 500 (approx. $108 USD) starting 2024.</li>
+                            <li>**Thailand:** Extended the standard **7% VAT** to cover purchases valued under THB 1,500 (approx. $42 USD). (Note: Thailand has already taken initial steps).</li>
+                            <li>**Indonesia:** Is considering imposing high import duties (up to 200%) on specific categories like imported fabrics and cosmetics.</li>
+                        </ul>
+                        <p class="mt-4 text-xs text-gray-500">
+                            **Source:** <a href="https://kr-asia.com/southeast-asia-pushes-back-on-cheap-chinese-imports" target="_blank" class="source-link">KrASIA: Southeast Asia pushes back on cheap Chinese imports</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="my-12 border-indigo-300">
+
+        <!-- Thailand's Learning Section -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Policy Adoption for Thailand</h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Thailand has already implemented the **7% VAT** on low-value goods, aligning with the ASEAN "Direct Taxation" model. To further protect local markets and the environment, Thailand can adopt strategies from the USA and EU.
+            </p>
+
+            <div class="space-y-8">
+                
+                <!-- Learning Point 1: USA Model -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-indigo-500">
+                    <div class="flex items-center mb-4">
+                        <i data-lucide="SearchCheck" class="text-indigo-500 mr-4 w-6 h-6"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">1. Enhance Product Compliance & Safety Checks (The Security Focus)</h3>
+                    </div>
+                    <p class="text-gray-700 mb-2">
+                        **Adaptation from USA:** While closing the de minimis tax loophole is achieved via VAT, Thailand can strengthen the **Customs Inspection** aspect. The goal is to move beyond revenue collection and focus on **product safety, quality, and anti-counterfeit measures**.
+                    </p>
+                    <p class="text-sm text-gray-600 italic">
+                        By requiring e-commerce platforms to provide **detailed product tariff codes and safety certifications** for all low-value shipments, Thai customs can better identify and stop unsafe or illicit goods, protecting consumers and legitimate manufacturers.
+                    </p>
+                </div>
+
+                <!-- Learning Point 2: EU Model -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-green-500">
+                    <div class="flex items-center mb-4">
+                        <i data-lucide="Feather" class="text-green-500 mr-4 w-6 h-6"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">2. Introduce Eco-Taxes and Extended Producer Responsibility (The Sustainability Focus)</h3>
+                    </div>
+                    <p class="text-gray-700 mb-2">
+                        **Adaptation from EU/France:** Implement an **Eco-Modulation Fee** or tax on ultra-fast fashion items, similar to France's proposal of up to €10 per item. The funds generated should be ring-fenced to support Thailand's nascent **recycling infrastructure** and local, sustainable fashion businesses.
+                    </p>
+                    <p class="text-sm text-gray-600 italic">
+                        This shifts the environmental cost of disposal onto the high-volume importers, making the local production of durable goods more competitive and supporting Thailand’s long-term sustainability goals.
+                    </p>
+                </div>
+                
+                <!-- Learning Point 3: Indonesia Model -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i data-lucide="TextCursor" class="text-yellow-500 mr-4 w-6 h-6"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">3. Apply Targeted Sector-Specific Import Duties (The Local Industry Focus)</h3>
+                    </div>
+                    <p class="text-gray-700 mb-2">
+                        **Adaptation from Indonesia:** Instead of applying high tariffs broadly, Thailand could conduct a strategic review of sectors facing the most severe displacement (e.g., local textiles, ceramics, or handicrafts).
+                    </p>
+                    <p class="text-sm text-gray-600 italic">
+                        Implement targeted, temporary **safeguard tariffs** or higher specific duties on specific HS codes within these sensitive categories when imported in bulk via e-commerce channels, providing a crucial buffer for local MSMEs to adapt and innovate.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!-- Footer for general notice -->
+        <footer class="mt-16 text-center text-gray-500 text-xs p-4 border-t border-gray-200">
+            <p>Analysis based on public information and proposed/enacted legislation as of September 2025.</p>
+        </footer>
+
+    </main>
+
+    <!-- Script to initialize Lucide icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>
